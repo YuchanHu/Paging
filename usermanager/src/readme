@@ -1,0 +1,6 @@
+1.  分页5要素
+    当前页             currentPage     用户输入
+    每页显示的记录数    pageSize        用户输入
+    总记录数           totalCount     数据库查询     SELECT COUNT(*) FROM user
+    总页数             totalPage        计算           totalCount % pageSize == 0 ? totalCount/pageSize :  totalCount/pageSize+1
+    分页列表             userList      数据库查     SELECT * FROM user LIMIT (currentPage-1)*pageSize,pageSize
