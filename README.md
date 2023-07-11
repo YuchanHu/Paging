@@ -14,7 +14,7 @@ Java、MySQL、Vue3、Bootstrap5
 
 集成开发环境：IntelliJ IDEA 2020.3.1
 
-该项目**没有使用Maven、Gradle和任何数据库连接池**
+该项目**没有任何数据库连接池**
 
 > 编码集为UTF-8，数据库的编码集也全部为UTF-8
 
